@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MelroTech Samsung Phone Dealership</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #2a7fd3;
+            color: hsl(0, 0%, 97%);
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+            background: #7187a0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #4a7feb;
+            color: #ffffff;
+        }
+        @media (min-width: 768px) {
+            .product {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                flex-wrap: wrap;
+            }
+            .product div {
+                width: 30%;
+                margin: 10px;
+            }
+        }
+        #user-management form input,
+        #user-management form select {
+            display: block;
+            margin-bottom: 10px;
+            padding: 8px;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        #user-management button {
+            background-color: #003399;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        #user-management button:hover {
+            background-color: #001f66;
+        }
+
+        #searchInput {
+            padding: 8px;
+            margin-bottom: 10px;
+            width: 300px;
+        }
+
+        #userList li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MelroTech Samsung Phone Dealership</h1>
+        <nav>
+            <ul>
+                <li><a href="profile.html">profile</a></li>
+                <li><a href="cover.html">Home</a></li>
+                <li><a href="products.html">Samsung Phones</a></li>
+                <li><a href="payment.html">Payment Options</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="user-management.html">user-management</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+    <section id="profile">
+        <h2>Profile</h2>
+        <h3> MelroTech Samsung Phone Dealership System</h3>
+        <H2> Project Profile</H2>
+        <h3>  Project Title:</h3>
+           <h2> MelroTech Samsung Phone Dealership Web System</h2>
+           <h4> Project Overview:</h4>
+            
+           <P> The MelroTech project is a responsive, dynamic web application designed to support a Samsung phone dealership.
+            <li> It allows users to explore available Samsung devices and offers backend functionality for managing user/customer profiles.</li>
+            <li> This project demonstrates the integration of front-end design, client-side scripting, and server-side data management using HTML, CSS, JavaScript, jQuery, Node.js, and SQLite.</li>
+        </P>
+          <h3>Main Features:</h3>  
+            <h4>Frontend:</h4>
+            <p>
+           <li> Home page with introduction and promotional images</li>
+           <li>Product catalog with specs and prices</li> 
+            <li>Payment instructions (Paybill & cash)</li>
+            <li>  Services (Setup, Repairs, Accessories, Trade-ins)</li>
+          <li> Contact page with social media links</li>
+          <li> User Registration Form to collect name, age, gender, and contact info</li>
+          <li>Search Functionality to find users by name or ID</li>
+         <li> Edit & Update existing users</li>
+         <li> Delete User from the system</li>
+         <li>Responsive layout with professional styling and animations</li>
+        </p>
+<p>
+          <h4> Backend:</h4> 
+            
+            <li>Built with Node.js and Express.js</li>
+            
+            <li> Stores user data in SQLite3</li>
+            
+            <li> API endpoints to:</li>
+            
+            <li> Register new users</li>
+            
+            <li>View/search all users</li>
+            
+            <li> Update user information</li>
+            
+            <li>Delete users</li>
+        </p>
+            <p>
+           <h4>Technologies Used:</h4> 
+            
+           <li>HTML5 & CSS3</li>
+            
+           <li> JavaScript & jQuery</li>
+            
+           <li> SQLite (database)</li>
+            
+           <li>Node.js + Express (server)</li>
+            
+           <li> CORS & Body-Parser (middleware)</li>
+            
+        </p>
+            <p>
+           <h4> Folder Structure:</h4> 
+            
+          MelroTechProject
+       <li> ├── index.html</li>
+        <li>├── style.css</li>
+       <li> ├── script.js</li>
+     <li>   ├── server.js</li>
+       <li> ├── users.db  (auto-created)</li>
+        <li>├── /images</li>
+        <li>└── README.txt</li>
+    </p>
+            <p>
+           <h6> How to Run the Project:</h6>
+            <li> 1. Install dependencies:</li>
+                   npm install express sqlite3 cors body-parser
+            <li> 2. Start the backend:</li>
+                   node server.js
+            <li>  3. Open index.html in a browser</li>
+        </p>
+<P>  <H4>Developer Info:</H4> 
+            
+   <li>Name: MERCY ELISHA</li> 
+   <li>Email:mercyelisha01@gmail.com</li>
+   <li>Reg. No:SD01/PU/43724/23</li> 
+<li> Course: Diploma in Computer Science – Term 5</li>
+<li> Unit: Web Design Skills II – DCS D121</li>
+<li> CAT Date: April 2025</li>
+</P>
+         
+        </p>
+    </section>
+
+        <section id="cover">
+            <h2>Welcome to MelroTech Samsung Phone Dealership!</h2>
+            <p>Your one-stop shop for the latest and greatest Samsung smartphones. We pride ourselves on offering an exceptional selection of devices that cater to all your mobile needs, whether you're a tech enthusiast or just looking for a reliable phone.</p>
+            <p>At MelroTech, we believe in providing our customers with not only the best products but also unparalleled customer service. Our knowledgeable staff is here to assist you in finding the perfect phone to fit your lifestyle.</p>
+            <p>Explore our diverse range of Samsung devices, enjoy competitive prices, and experience our commitment to quality and satisfaction. Thank you for choosing us as your Samsung phone provider!</p>
+            <img src="./images/Samsung Galaxy S23.jpeg.jpg" alt="Samsung Galaxy S23">
+            <img src="./images/Samsung Galaxy A54.jpg" alt="Samsung Galaxy A54">
+            <img src="./images/Samsung Z  Galaxy Flip 5.jpg" alt="Samsung Galaxy Z Flip 5">
+            <img src="./images/Samsung Galaxy A05.jpg" alt="Samsung Galaxy A05">
+            <img src="./images/Samsung  Galaxy S21.jpg" alt="Samsung Galaxy S21 Ultra">
+            <img src="./images/Samsung Galaxy A72.jpg" alt="Samsung Galaxy A72 5G">
+            <img src="./images/Samsung Z Galaxy Fold 3.jpg" alt="Samsung Galaxy Z Fold 3">
+            <img src="./images/Samsung  Galaxy A32.jpg.jpg" alt="Samsung Galaxy A32 ">
+            <img src="./images/Samsung Galaxy A04e.jpg" alt="Samsung Galaxy A04e">
+            <img src="./images/Samsung Galaxy M32.jpg" alt="Samsung Galaxy M32">
+        </section>
+
+        <section id="products">
+            <h2>Available Samsung Phones</h2>
+            <div class="product">
+                <div>
+                    <h3>Samsung Galaxy S23</h3>
+                    <img src="./images/Samsung Galaxy S23.jpeg.jpg" alt="Samsung Galaxy S23">
+                    <p>Price: Kshs 99,999</p>
+                    <h4>Features:</h4>
+                    <ul>
+                        <li>6.1" Dynamic AMOLED display</li>
+                        <li>Snapdragon 8 Gen 2 processor</li>
+                        <li>50MP triple camera system</li>
+                        <li>3900mAh battery</li>
+                        <li>IP68 water and dust resistance</li>
+                        <li>5G connectivity</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Samsung Galaxy A54</h3>
+                    <img src="./images/Samsung Galaxy A54.jpg" alt="Samsung Galaxy A54">
+                    <p>Price: Kshs 44,999</p>
+                    <h4>Features:</h4>
+                    <ul>
+                        <li>6.4" FHD+ Super AMOLED display</li>
+                        <li>Exynos 1380 processor</li>
+                        <li>50MP triple camera system</li>
+                        <li>5000mAh battery</li>
+                        <li>120Hz refresh rate</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Samsung Galaxy Z Flip 5</h3>
+                    <img src="./images/Samsung Z  Galaxy Flip 5.jpg" alt="Samsung Galaxy Z Flip 5">
+                    <p>Price: Kshs 109,999</p>
+                    <h4>Features:</h4>
+                    <ul>
+                        <li>6.7" foldable Dynamic AMOLED display</li>
+                        <li>Snapdragon 8 Gen 2 processor</li>
+                        <li>12MP dual camera system</li>
+                        <li>3700mAh battery</li>
+                        <li>Innovative folding design</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product">
+                <div>
+                    <h3>Samsung Galaxy A05</h3>
+                    <img src="./images/Samsung Galaxy A05.jpg" alt="Samsung Galaxy A05">
+                    <p>Price: Kshs 29,999</p>
+                    <h4>Features:</h4>
+                    <ul>
+                        <li>6.5" HD+ display</li>
+                        <li>MediaTek Helio P35 processor</li>
+                        <li>13MP dual camera system</li>
+                        <li>5000mAh battery</li>
+                        <li>Budget-friendly option</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Samsung Galaxy S21 Ultra</h3>
+                    <img src="./images/Samsung  Galaxy S21.jpg" alt="Samsung Galaxy S21 Ultra">
+                    <p>Price: Kshs 134,999</p>
+                    <h4>Features:</h4>
+                    <ul>
+                        <li>6.8" Dynamic AMOLED 2X display</li>
+                        <li>108MP quad camera system</li>
+                        <li>5000mAh battery</li>
+                        <li>S Pen support</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Samsung Galaxy A72 5G</h3>
+                    <img src="./images/Samsung Galaxy A72.jpg" alt="Samsung Galaxy A72 5G">
+                    <p>Price: Kshs 49,999</p>
+                    <h4>Features:</h4>
+                    <ul>
+                        <li>6.7" FHD+ Super AMOLED Plus display</li>
+                        <li>Snapdragon 778G processor</li>
+                        <li>108MP quad camera system</li>
+                        <li>5000mAh battery</li>
+                        <li>5G connectivity</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product">
+                <div>
+                    <h3>Samsung Galaxy Z Fold 3</h3>
+                    <img src="./images/Samsung Z Galaxy Fold 3.jpg" alt="Samsung Galaxy Z Fold 3">
+                    <p>Price: Kshs 199,999</p>
+                    <h4>Features:</h4>
+                    <ul>
+                        <li>7.6" foldable Dynamic AMOLED 2X display</li>
+                        <li>Snapdragon 8 Gen 2 processor</li>
+                        <li>50MP triple camera system</li>
+                        <li>4400mAh battery</li>
+                        <li>Tablet-style foldable design</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <style>  
+                #user-management form input,
+                #user-management form select {
+                    display: block;
+                    margin-bottom: 10px;
+                    padding: 8px;
+                    width: 100%;
+                    max-width: 300px;
+                }
+        
+                #user-management button {
+                    background-color: #003399;
+                    color: white;
+                    padding: 10px 15px;
+                    border: none;
+                    cursor: pointer;
+                }
+        
+                #user-management button:hover {
+                    background-color: #001f66;
+                }
+        
+                #searchInput {
+                    padding: 8px;
+                    margin-bottom: 10px;
+                    width: 300px;
+                }
+        
+                #userList li {
+                    margin-bottom: 5px;
+                }
+        </style>
+        
+        <section id="user-management">
+            <h2>User Registration</h2>
+            <form id="userForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required><br>
+        
+                <label for="age">Age:</label>
+                <input type="number" id="age" required><br>
+        
+                <label for="gender">Gender:</label>
+                <select id="gender" required>
+                    <option value="">Select</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select><br>
+        
+                <label for="contact">Contact Info:</label>
+                <input type="text" id="contact" required><br>
+        
+                <button type="submit">Register User</button>
+            </form>
+        
+            <h3>Search Users</h3>
+            <input type="text" id="searchInput" placeholder="Search by Name or ID">
+        
+            <h3>Registered Users</h3>
+            <ul id="userList"></ul>
+        </section>
+    
+        <section id="payment">
+            <h2>Payment Options</h2>
+            <p>We accept the following payment methods:</p>
+            <ul>
+                <li><strong>Cash:</strong> Pay directly at our dealership.</li>
+                <li><strong>Paybill:</strong> Use our Paybill number for mobile payments.</li>
+            </ul>
+            <p>For Paybill transactions, use the following details:</p>
+            <ul>
+                <li><strong>Business Number:</strong> 247247</li>
+                <li><strong>Account Number:</strong> 0791731636</li>
+            </ul>
+            <p>We also offer financing options for select phones. Contact us for more details!</p>
+        </section>
+       
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>In addition to selling Samsung phones, we offer a range of services to enhance your experience:</p>
+            <ul>
+                <li><strong>Device Setup:</strong> Assistance with setting up your new device.</li>
+                <li><strong>Repairs:</strong> Quick and reliable repair services for your Samsung devices.</li>
+                <li><strong>Trade-ins:</strong> Get discounts on new phones by trading in your old device.</li>
+                <li><strong>Accessories:</strong> A variety of phone accessories including cases, chargers, and screen protectors.</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need assistance, feel free to reach out to us:</p>
+            <ul>
+                <li><strong>Phone:</strong> +254 791731636</li>
+                <li><strong>Email:</strong> info@MelroTech.com</li>
+                <li><strong>Address:</strong> 003 kwamwango Street, kilifi, Kenya</li>
+            </ul>
+            <p>Follow us on social media for the latest updates and promotions:</p>
+            <ul>
+                <li><a href="https://facebook.com/MelroTech" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/MelroTech" target="_blank">Twitter</a></li>
+                <li><a href="https://instagram.com/MelroTech" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 MelroTech Samsung Phone Dealership. All rights reserved.</p>
+    </footer>
+</body>
+</html>
